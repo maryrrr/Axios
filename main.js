@@ -18,7 +18,7 @@ function imprimir_varglobal (){
     dataUser.forEach(element =>{
         console.log(element);
         cont_var.innerHTML += `
-        <h2>${element.username}</h2>`
+        <h2>${element.id} ${element.name} ${element.username} ${element.email}</h2>`
 })
 }
 
